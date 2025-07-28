@@ -1,0 +1,65 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <VBox visible="false" id="RequestType1">
+        <VBox>
+            <Label text="Is entity code new?" required="true" id="Isentitycodenew"/>
+            <ComboBox placeholder="Select option" width="100%">
+                <core:Item key="value1" text="Value 1" />
+                <core:Item key="value2" text="Value 2" />
+                <core:Item key="value3" text="Value 3" />
+                <core:Item key="value4" text="Value 4" />
+            </ComboBox>
+        </VBox> 
+        <VBox>
+            <Label text="New Entity Code" required="true"/>
+            <ComboBox placeholder="Select option" width="100%">
+                <core:Item key="value1" text="Yes" />
+                <core:Item key="value2" text="No" />
+            </ComboBox>
+        </VBox> 
+        <VBox>
+            <HBox >
+                <Label text="New General Ledger Account"  required="true"/>
+                <core:Icon class="sapUiTinyMarginBegin" id="NewGeneralLedgerAccount" src="sap-icon://sys-help-2" press="setQVisibility"></core:Icon>
+            </HBox>
+            <MessageStrip id="NewGeneralLedgerAccount_Q" text="Some Text" showCloseButton="true" type="None" visible="false"></MessageStrip>
+            <Input />
+        </VBox> 
+        <VBox>
+            <HBox >
+                <Label text="Account title (short text)"  required="true"/>
+                <core:Icon class="sapUiTinyMarginBegin" id="AccountTitleS" src="sap-icon://sys-help-2" press="setQVisibility"></core:Icon>
+            </HBox>
+            <MessageStrip id="AccountTitleS_Q" enableFormattedText="true" text="{/AccountTitleS}" showCloseButton="true" type="None" visible="false"></MessageStrip>
+            <Input />
+        </VBox> 
+        <VBox>
+            <HBox >
+                <Label text="Account title (long text)"  required="true"/>
+                <core:Icon class="sapUiTinyMarginBegin" id="AccountTitleL" src="sap-icon://sys-help-2" press="setQVisibility"></core:Icon>
+            </HBox>
+            <MessageStrip id="AccountTitleL_Q" enableFormattedText="true" text="{/AccountTitleL}" showCloseButton="true" type="None" visible="false"></MessageStrip>
+            <Input />
+        </VBox> 
+        <VBox>
+            <HBox >
+                <Label text="Block or Unblock Account"  required="true"/>
+                <core:Icon class="sapUiTinyMarginBegin" id="BlockorUnblockAccount" src="sap-icon://sys-help-2" press="setQVisibility"></core:Icon>
+            </HBox>
+            <MessageStrip id="BlockorUnblockAccount_Q" text="Some Text" showCloseButton="true" type="None" visible="false"></MessageStrip>
+            <ComboBox placeholder="Select option" width="100%">
+                <core:Item key="value1" text="Yes" />
+                <core:Item key="value2" text="No" />
+            </ComboBox>
+        </VBox>
+        <VBox>
+            <HBox >
+                <Label text="Purpose of account"  required="true"/>
+                <core:Icon class="sapUiTinyMarginBegin" id="PurposeofAccount" src="sap-icon://sys-help-2" press="setQVisibility"></core:Icon>
+            </HBox>
+            <MessageStrip id="PurposeofAccount_Q" enableFormattedText="true" text="{/PurposeofAccount}" showCloseButton="true" type="None" visible="false"></MessageStrip>
+            <Input />
+        </VBox>
+    </VBox>
+</core:FragmentDefinition>

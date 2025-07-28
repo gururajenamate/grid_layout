@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <VBox visible="false" id="RequestType2">
+        <VBox>
+            <Label text="New General Ledger Account" required="true"/>
+            <Input />
+        </VBox> 
+        <VBox>
+            <Label text="Account title (short text)" required="true"/>
+            <Input />
+        </VBox> 
+        <VBox>
+            <Label text="Account title (long text)" required="true"/>
+            <Input />
+        </VBox> 
+        <VBox>
+            <Label text="Block or Unblock Account" required="true"/>
+            <ComboBox placeholder="Select option" width="100%">
+                <core:Item key="value1" text="Yes" />
+                <core:Item key="value2" text="No" />
+            </ComboBox>
+        </VBox>
+        <VBox>
+            <Label text="Purpose of account" required="true"/>
+            <Input />
+        </VBox>
+    </VBox>
+</core:FragmentDefinition>
