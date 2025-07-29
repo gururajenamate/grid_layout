@@ -1,1 +1,4 @@
 /* Enter your custom styles here */
+.sapMMsgStripMessage {
+    max-height: 100%;
+}

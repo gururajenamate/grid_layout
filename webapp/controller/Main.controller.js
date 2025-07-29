@@ -12,7 +12,70 @@ sap.ui.define([
                 PurposeofAccount: `Some text <br />&#8226; Text 1 <br />
                                         &#8226; Text 2 <br />
                                         &#8226; Text 3 <br />
-                                        &#8226; Text 4`
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />
+                                        &#8226; Text 2 <br />
+                                        &#8226; Text 3 <br />
+                                        &#8226; Text 4 <br />`
             };
             let oJSONModel = new JSONModel(aJSONData);
             this.getView().setModel(oJSONModel);
